@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1087667420645",
+    "project_id": "millionaire-c5365",
+    "storage_bucket": "millionaire-c5365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087667420645:android:74938925df2d2b76a0c30c",
+        "android_client_info": {
+          "package_name": "com.bscantor.millionaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087667420645-t9cd389pv3vsl1visgsh99v1e289mp19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bscantor.millionaire",
+            "certificate_hash": "3e3986f4fe89fd55d01013ee7554c415bc7f96b5"
+          }
+        },
+        {
+          "client_id": "1087667420645-4cudmit7n8u5sismhh9p3a19sp7ljkdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2PEVKooTLU4xdU-F30o123eqz_zbcrHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087667420645-4cudmit7n8u5sismhh9p3a19sp7ljkdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
