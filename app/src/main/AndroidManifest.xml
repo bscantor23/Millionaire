@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Millionaire">
         <activity
+            android:name=".views.QuestionaryActivity"
+            android:exported="true" />
+        <activity
             android:name=".views.MainActivity"
             android:exported="true">
             <intent-filter>

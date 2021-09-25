@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".QuestionaryActivity">
+
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:gravity="center"
+        android:text="Nivel #" />
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:layout_marginTop="32dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/btnOption1"
+            android:text="Ut enim ad minim veniam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/design_default_color_primary"/>
+        <Button
+            android:id="@+id/btnOption2"
+            android:text="quis nostrud exercitation ullamco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/design_default_color_primary"/>
+        <Button
+            android:id="@+id/btnOption3"
+            android:text="laboris nisi ut aliquip ex ea commodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/design_default_color_primary"/>
+        <Button
+            android:id="@+id/btnOption4"
+            android:text="Duis aute irure dolor in reprehenderit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/design_default_color_primary"/>
+
+    </LinearLayout>
+
+</LinearLayout>

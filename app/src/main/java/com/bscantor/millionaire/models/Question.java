@@ -1,30 +1,19 @@
 package com.bscantor.millionaire.models;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Question {
+    public String name;
+    public List<String> answers;
+    public int correct;
 
-    private String name;
-    private ArrayList<Answer> answers = new ArrayList<Answer>();
-
-    public Question() {
+    @Override
+    public String toString() {
+        return "Question{" +
+                ", name='" + name + '\'' +
+                ", answers=" + answers +
+                ", correct=" + correct +
+                '}';
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public ArrayList<Answer> getAnswers() {
-        return answers;
-    }
-
-    public void setAnswers(ArrayList<Answer> answers) {
-        this.answers = answers;
-    }
-
-
 }
