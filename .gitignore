@@ -203,7 +203,7 @@ $RECYCLE.BIN/
 *.swp
 
 # Keystore files
-*.jks
+# *.jks
 *.keystore
 
 # Google Services (e.g. APIs or Firebase)

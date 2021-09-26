@@ -128,6 +128,8 @@ public class QuestionaryActivity extends AppCompatActivity implements View.OnCli
         content.setVisibility(View.GONE);
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        //db.clearPersistence();
         db.collection("levels").orderBy("id").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
