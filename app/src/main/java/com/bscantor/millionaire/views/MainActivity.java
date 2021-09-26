@@ -33,25 +33,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         });
 
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        db.collection("levels").orderBy("id").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                if (task.isSuccessful()) {
-                    List<String> levels = new ArrayList<>();
-                    for (QueryDocumentSnapshot document : task.getResult()) {
-                        levels.add(document.getId());
-                    }
-
-                    for (String level : levels) {
-                        Log.i("level: ", "" + level);
-                    }
-                } else {
-                    Log.w("Error", task.getException());
-                }
-            }
-        });
-
-
     }
 }
